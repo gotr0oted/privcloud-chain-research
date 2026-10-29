@@ -1,0 +1,1 @@
+{"action":"evidence.verify","actor_id":"guest_04","case_id":"CASE-SYN-004","decision":"deny","object_id":"OBJ-SYN-019","reason":"authentication_tag_invalid","record_id":"SYN-0043","scenario_label":"tamper_alert","source_ip":"192.0.2.44","tamper_detected":true,"timestamp_utc":"2026-10-01T12:13:00Z"}

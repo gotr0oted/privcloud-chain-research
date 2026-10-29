@@ -1,0 +1,1 @@
+{"action":"evidence.retrieve","actor_id":"guest_04","case_id":"CASE-SYN-004","decision":"deny","object_id":"OBJ-SYN-003","plaintext_returned":false,"reason":"policy_guest_role","record_id":"SYN-0027","scenario_label":"access_denied","source_ip":"192.0.2.28","timestamp_utc":"2026-10-01T07:41:00Z"}

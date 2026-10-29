@@ -1,0 +1,19 @@
+{
+  "run_utc": "2026-10-29T19:09:57.100931+00:00",
+  "scope": "local SHA-256/AES-256-GCM primitive check only; excludes FastAPI, MinIO, Fabric, database, network and baseline comparisons",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "cryptography": "50.0.2",
+  "os": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD",
+  "logical_cpu_count": 6,
+  "seed": 20261030,
+  "warmups_per_size": 3,
+  "measured_repetitions_per_size": 30,
+  "sizes_bytes": [
+    1024,
+    65536,
+    1048576,
+    10485760
+  ],
+  "validation": "all decryptions matched input and all ciphertext-tamper trials were rejected"
+}

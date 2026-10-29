@@ -1,0 +1,16 @@
+Test ID,Test case,Expected result,Reported result,Source,Run duration (s)
+TEST-01,Authentication and JWT lifecycle,Tampered and expired tokens rejected,PASS,User-supplied Verification Center report,NA
+TEST-02,Role and user-ID spoofing,Mismatched identity or role rejected,PASS,User-supplied Verification Center report,NA
+TEST-03,Investigator access,Authorized access integrity verification and decryption succeed,PASS,User-supplied Verification Center report,NA
+TEST-04,Guest access denial,Unauthorized Guest access denied,PASS,User-supplied Verification Center report,NA
+TEST-05,Plaintext withholding,Denied requests return no raw evidence,PASS,User-supplied Verification Center report,NA
+TEST-06,AES-256-GCM,Correct encryption and lossless decryption,PASS,User-supplied Verification Center report,NA
+TEST-07,SHA-256 integrity,Deterministic digest calculation validated,PASS,User-supplied Verification Center report,NA
+TEST-08,MinIO storage,Encrypted evidence stored and plaintext exclusion checked,PASS,User-supplied Verification Center report,NA
+TEST-09,Tamper detection,Modified ciphertext fails authentication-tag verification,PASS,User-supplied Verification Center report,NA
+TEST-10,Fabric connectivity,Peers orderer and deployed chaincode accessible,PASS,User-supplied Verification Center report,NA
+TEST-11,Blockchain registration,Evidence registration transaction committed successfully,PASS,User-supplied Verification Center report,NA
+TEST-12,Fabric access decisions,Investigator grant and Guest denial recorded on-chain,PASS,User-supplied Verification Center report,NA
+TEST-13,Chain-of-custody history,Chronological history and denial record retrieved,PASS,User-supplied Verification Center report,NA
+TEST-14,Service health,Database MinIO and Fabric reported healthy,PASS,User-supplied Verification Center report,NA
+TEST-15,End-to-end workflow,Registration storage access denial and history completed,PASS,User-supplied Verification Center report,NA
