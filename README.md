@@ -26,7 +26,9 @@ The PrivCloud-Chain application source was not present in the available workspac
 
 ## GitHub
 
-This folder is a local Git repository prepared for the requested GitHub publication. `scripts/watch_paper.ps1` watches the paper for saved changes, waits for an eight-second quiet period, then commits and pushes the document to `origin`. The watcher is not running yet because no GitHub repository or remote is configured. After the repository is created and connected, start it with `powershell -ExecutionPolicy Bypass -File scripts/watch_paper.ps1`; keep that PowerShell process running for automatic updates. It does not push other files.
+Public repository: https://github.com/gotr0oted/privcloud-chain-research
+
+`scripts/watch_paper.ps1` watches the paper for saved changes, waits for an eight-second quiet period, commits only the document, and pushes to `origin`. It retries local commits that could not be pushed during a network interruption. A scheduled task starts the watcher at Windows sign-in. GitHub login must remain available through Git Credential Manager for pushes to succeed.
 
 ## Authorship and disclosures
 
